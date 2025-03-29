@@ -39,9 +39,17 @@ DEADLINE: 23H59 NGÀY 30/03/2025
 
 ---------------------- bài lam ------------------------------------------  
 
-1.Thêm/sửa cột:
-ID (Primary Key, int, không null).
-maDDH (char(10), không null).
-maSP (char(11), có thể null).
-DonGia (float, có thể null).
-PhanTramKm (float, có thể null).
+1.Thêm/sửa cột:  
+ID (Primary Key, int, không null).  
+maDDH (char(10), không null).  
+maSP (char(11), có thể null).  
+DonGia (float, có thể null).  
+PhanTramKm (float, có thể null).  
+![image](https://github.com/user-attachments/assets/41443527-aafb-4d87-a66c-b07027a870e4)  
+
+2.Mở SSMS, vào Design bảng dbo.DKMH.  
+Mở cửa sổ thiết lập khóa ngoại.  
+Chỉnh sửa ràng buộc khóa ngoại (FK_MH_maSP).  
+Kiểm tra và áp dụng ràng buộc.  
+Lưu thay đổi.  
+![image](https://github.com/user-attachments/assets/5ef74abe-0661-4665-9e6f-8a3c711bc64c)  
