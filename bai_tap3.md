@@ -38,3 +38,10 @@ DEADLINE: 23H59 NGÀY 30/03/2025
 ---------------------- hết bài tập 3-------------------------------------------  
 
 ---------------------- bài lam ------------------------------------------  
+
+1.Thêm/sửa cột:
+ID (Primary Key, int, không null).
+maDDH (char(10), không null).
+maSP (char(11), có thể null).
+DonGia (float, có thể null).
+PhanTramKm (float, có thể null).
